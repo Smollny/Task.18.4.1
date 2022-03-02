@@ -10,7 +10,7 @@ namespace Task._18._4._1
         {
             var youtube = new YoutubeClient();
             await youtube.Videos.DownloadAsync(url, "video.mp4");
-            Console.WriteLine("Finishing download...");
+            Console.WriteLine("\nFinishing download...");
         }
     }
 }
